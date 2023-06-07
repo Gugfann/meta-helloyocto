@@ -1,0 +1,25 @@
+From a4289eaaba07dcfb088d6a54452d0d971ac2317f Mon Sep 17 00:00:00 2001
+From: Kristian Hansen <kmolha@gmail.com>
+Date: Wed, 7 Jun 2023 16:04:59 +0200
+Subject: [PATCH] Made a patch, yo
+
+---
+ src/main.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/main.cpp b/src/main.cpp
+index 8ac7cd7..9f8b2ce 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -3,9 +3,9 @@
+ int main(){
+     std::cout << "Hello, Yocto..." << std::endl;
+     
+-    std::cout << "There is more to say here..." << std::endl;
+-    
+     std::cout << "It just keeps coming..." << std::endl;
+ 
++    std::cout << "But wait! There's more!" << std::endl;
++
+     return 0;
+ }

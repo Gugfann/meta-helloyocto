@@ -3,7 +3,9 @@ LICENSE = "CLOSED"
 
 # inherit git
 
-SRC_URI = "git://github.com/Gugfann/helloyocto.git;protocol=https;branch=main"
+SRC_URI = "git://github.com/Gugfann/helloyocto.git;protocol=https;branch=main \
+           file://0001-Made-a-patch-yo.patch \
+           "
 SRC_URI[sha256sum] = "a8f574d61d8239bd037ba051b336d0928734a955d371ec7965e600830c4d188f"
 
 SRCREV = "${AUTOREV}"
