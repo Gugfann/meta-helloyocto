@@ -8,8 +8,9 @@ SRC_URI = "git://github.com/Gugfann/helloyocto.git;protocol=https;branch=main \
            "
 SRC_URI[sha256sum] = "a8f574d61d8239bd037ba051b336d0928734a955d371ec7965e600830c4d188f"
 
-SRCREV = "${AUTOREV}"
-# SRCREV = "47e9a4ebdb4085025755c15512fc6fe49652d0dd"
+# SRCREV = "${AUTOREV}"
+# Now that we have a patch, we need to be very specific about the git revision. AUTOREV will just take the latest commit
+SRCREV = "8c738c51b47c43e782cf446cf674e909d285d6b"
 PV = "1.0+git${SRCPV}"
 S = "${WORKDIR}/git"
 
